@@ -33,3 +33,15 @@
 - 학습이 얼마나 진행되었는지 알려주는 부분입니다.
 - 각 학습이 끝날때마다 얼마나 정답에 가까워 지는지 평가하는 부분입니다.
 - 0에 가까워 질수록 학습이 잘된 모델이라고 할수있습니다.
+
+# 11-15
+
+- w : Weight
+- b : bias
+
+워크북 : [https://docs.google.com/spreadsheets/d/11DAONRZ92ob0T0YRIT5KgU9vNeO28bYNvteu_-fbRV0/edit#gid=0]
+
+## 원핫인코딩
+
+- 원핫 인코딩을 할때 `to_categorical(y, 10)` 라는 tensorflow util을 사용하였는데 
+- pandas에서 `get_dummies(y)` 를 사용하면 알아서 구해진다고 한다.
